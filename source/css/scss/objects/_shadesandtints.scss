@@ -1,0 +1,68 @@
+// styles for color strip
+.shade-tint-strip {
+  padding: 0;
+  margin: 30px 0 60px 0;
+  float: left;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    width: 14.28%; // 1/7
+    height: 80px;
+    float: left;
+
+    .sg-label {
+      margin-top: 90px;
+      display: block;
+    }
+  }
+}
+
+// create shades and tints
+@mixin shadesAndTints($color) {
+  .tint-60 {
+    // background-color: lighten($color, 30%);
+    background-color: mix(#FFF, $color, 60%);
+  }
+  .tint-40 {
+    background-color: mix(#FFF, $color, 40%);
+  }
+  .tint-20 {
+    background-color: mix(#FFF, $color, 20%);
+  }
+  .hue {
+    background-color: $color;
+  }
+  .shade-20 {
+    background-color: mix(#000, $color, 20%);
+  }
+  .shade-40 {
+    background-color: mix(#000, $color, 40%);
+  }
+  .shade-60 {
+    background-color: mix(#000, $color, 60%);
+  }
+}
+
+
+
+// edits colors here
+.shade-tint-strip.neon-red {
+  @include shadesAndTints($neon-red)
+}
+
+.shade-tint-strip.neon-green {
+  @include shadesAndTints($neon-green)
+}
+
+.shade-tint-strip.neon-blue {
+  @include shadesAndTints($neon-blue)
+}
+
+.shade-tint-strip.dandelion {
+  @include shadesAndTints($dandelion)
+}
+
+.shade-tint-strip.turquoise {
+  @include shadesAndTints($turquoise)
+}
