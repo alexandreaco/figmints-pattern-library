@@ -1,3 +1,23 @@
+# Figmints Pattern Libary
+#### A boilerplate for client styleguides
+
+Author: [Alexandrea Defreitas](https://github.com/alexandreaco)
+
+Special thanks to [Pattern Lab](http://patternlab.io/) for creating an great open source framework
+
+--
+
+## Getting Started
+
+1. Make sure you have [compass installed](http://compass-style.org/install/)
+2. cd into the figmints-pattern-library in Terminal
+3. run `compass watch source`
+4. in a new tab run `php core/builder.php -rw` to initialize live reloading
+5. Begin styling! 
+
+
+
+#### -- The Rest of the README comes from Pattern Lab -- 
 ## About Pattern Lab
 - [Pattern Lab Website](http://patternlab.io/)
 - [About Pattern Lab](http://patternlab.io/about.html)
