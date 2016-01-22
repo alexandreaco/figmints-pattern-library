@@ -3,7 +3,7 @@
 
 Author: [Alexandrea Defreitas](https://github.com/alexandreaco)
 
-Special thanks to [Pattern Lab](http://patternlab.io/) for creating an great open source framework
+Special thanks to [Pattern Lab](http://patternlab.io/) for creating a great open source framework
 
 --
 
@@ -14,6 +14,8 @@ Special thanks to [Pattern Lab](http://patternlab.io/) for creating an great ope
 3. run `compass watch source`
 4. in a new tab run `php core/builder.php -rw` to initialize live reloading
 5. Begin styling! 
+
+Be sure to check the [documentation area](http://patternlab.io/docs/index.html) of the Pattern Lab site for advanced techniques.
 
 
 
